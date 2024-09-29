@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+    <title>Document</title>
+    <style>
+        *{
+               margin: 0%;
+               padding: 0%;
+        }
+        .box{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+            width: 100%;
+            height: 70vh;
+            justify-content: space-around;
+              background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+        }
+        .box h1{
+            display: flex;
+        }.f{
+            height: 10vh;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+      
+        .link {
+            display :flex;
+            font-size: 18px;
+            width: 45%;
+           justify-content: space-between;
+        
+        
+        }
+        .link a{         
+            
+            text-decoration: none;
+            color: white;
+            
+        }
+        .z{
+            width: 100%;
+            height: 50vh;
+            display: flex;
+      align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+            
+        }
+        .div{
+
+            background-color: white;
+            width: 50%;
+            height: 7vh;
+            display: flex;
+            
+            align-items: center;
+            
+            border-radius: 5px;
+        }
+        .order{
+            
+            display: flex;
+            justify-content: space-between;
+            height:43vh;
+            width: 100%;
+            
+             
+        }.order img{
+               
+            display: flex;
+            border-color: black;
+            border-radius: 7px 9px 0px 1px;
+            justify-content: center;
+            
+        }  .crd{
+            box-shadow:0px 0px 1px #353536;
+            
+            border-radius: 10px;
+            
+        }
+         .box1{
+            margin-left: 3%;
+            display: flex;
+             width: 93%;
+            height: 90vh;
+            flex-direction:column ;
+    
+        }.van{
+      
+            display: flex;
+           justify-content: space-between;
+        }.van img{
+            display: flex;
+            justify-content: space-between;
+            border-radius: 10px;
+        }.khushi{
+            margin-left: 9%;
+            margin-right: 8%;
+        
+            
+        }    
+        .van p{
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: 15px;
+    position: absolute;
+    margin: -70px 10px 10px 15px;
+    color: #FFF;
+        }.van h3{
+            font-size: 20px;
+            position: absolute;
+    margin: -47px 10px 10px 25px;
+    color: #fff;
+        }.t{
+            
+            display: flex;
+        }.fa-caret-up{
+            
+            position: absolute;
+    margin: -43px 10px 10px 111px;
+    
+        }
+        .crd:hover{
+            transform: scale(1.07);
+        }
+        .buttom{
+            display: flex;
+            height: 10vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            margin-bottom: 5%;
+        }
+       .btm{
+         
+        height: 12vh;
+        width: 31%;
+        background-color: white;
+        border-color: solid black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 1px ;
+        justify-content: space-around;
+        margin-top: 10px;
+align-items: center;
+display: flex;
+
+    
+       }.btm:hover{
+                        box-shadow: 0px 0px 10px;
+       }
+       .btm p{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 5%;
+        font-size: 22px;
+       }
+       .fa-greater-than{
+        font-size: 12px;
+       }
+       .app
+       {
+        display: flex;
+        background-color: rgb(252, 250, 248);
+        width: 100%;
+        align-items: center;
+        height: 70vh;
+        justify-content: center;
+        line-height: 5vh;
+        
+       }
+       .radio input{
+        
+        margin: 22px 21px 2px 0px ;
+        height: 3vh;
+        width: 4%;
+        
+          
+        
+       } 
+       label{
+              margin: 12px 10px 10px -17px;
+              font-size: 20px;
+       }
+       
+      .class input{
+
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        border-radius: 5px;
+        width: 50%;
+        height: 7vh;
+        
+        font-size: 17px;
+        border-style: ridge;
+        border-color: #f5f1f1;
+        margin:29px 0px 27px 0px;
+        padding-left: 15px;
+      }
+       
+       .app img{
+        margin: 3px 20px 18px 0px;
+       
+       }.app button{
+        background-color: #fc2222;
+        border-radius: 5px;
+        width: 30%;
+        height: 7vh;
+        color: #f1f4f8;
+        font-size: 16px;
+        border: none;
+        margin:29px 0px 27px 10px;
+       }
+     .type{
+        margin:30px 10px 10px 16px
+     }.email img{
+        margin-top: 25%;
+     }.near{
+        
+        font-family: sans-serif;
+        margin-left: 10%;
+        margin-right: 12%;
+     }
+       .near p{
+        letter-spacing: 1px;
+        font-size: 30px;
+       }
+      .me {
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        border-color: solid rgb(90, 89, 89);
+        border-radius: 10px;
+        box-shadow: 0px 0px 1px ;
+        justify-content: space-between;
+        margin-top:20px;
+        padding-left: 25px;
+padding-right: 25px;
+align-items: center;
+display: flex;
+       } 
+       .me p{
+        letter-spacing: 1px;
+  font-family: sans-serif;
+        font-size: 20px;
+        color: #353536;
+       }
+       .footer{
+    
+        background-color: #fafafa;
+        padding-left :10%;
+        padding-right: 10%;
+        height: 80vh;
+        
+    
+        
+       }
+       .footer b{
+        
+        font-family: sans-serif;
+        font-style: italic;
+        font-size: 45px;
+            
+        
+       }
+.footer select{
+width: 150px;
+    height: 7vh;
+    margin-right:10px ;
+    padding-left:  45px;
+    
+    border-radius: 7px;
+    font-size: 18px;
+    
+    
+    
+
+}
+.footer1{
+   
+    padding-top: 40px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    
+}.india{
+    padding-top: 15px;
+    margin-left: 587px;
+    
+}.india i{
+    position: absolute;
+    margin: 15px 10px 10px 13px;
+}.india img{
+    position: absolute;
+    margin: 13px 10px 10px 13px;
+    align-items: center;
+}
+.some{
+    margin-right: 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.some h4{
+    font-size: 18px;
+    line-height: 10vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+
+    
+}.some p{
+    color: #918d8d;
+    line-height: 4vh;
+    font-size: 18px;
+    letter-spacing: 1px;
+    
+}
+.some i{
+
+    padding: 5px 5px 5px 5px;
+    border-radius: 50px;
+    font-size: small;
+    background-color: black;
+    margin-right: 6px;
+}.re{
+    padding-top: 18px;
+}.re img{
+    padding-bottom: 10px;
+}
+.red{
+display: flex;
+justify-content: space-between;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="f">        <div class="t">
+            <i class="fa-solid fa-mobile-screen" style="color: #f1f4f8;margin-left:10px ;margin-right: 10px;margin-top: 4px;"></i><h3 style="color: white;font-size: 12px;margin-top: 5px;">Get the app</h3></div>
+        <div class="link"><a href="">Investor_Relation</a>
+            <a href="">Add_Restuarant</a>
+            <a href="">Log_In</a>
+            <a href="">Sign_Up</a>
+        </div></div>
+    <div class="z"><p style="color: white; font-size: 70px;"><b>ZOMATO</b></p>
+    <p style="color: white;font-size: 40px; height: 12vh">Discover The Best Food & Drinks in Indore</p>
+    
+    <div class="div">
+        <i class="fa-solid fa-location-dot" style="color: #fc2222;padding: 20px;" ></i>
+         <select   style="width: 200px;height: 5vh;font-size: 15px;border-radius: 5px;height: 7vh;border-color: white;" name="city" id="city" >
+            <option value="">Indore</option>
+          <option value="">ratlam</option>
+          <option value="">jaora</option>
+         <option value="">mandsor</option>
+         </select>
+         <p>|</p>
+         <i class="fa-solid fa-magnifying-glass" style="padding: 30px;"></i>
+         <p>Search for Restuarant , cuisin or a dish</p>
+        </div></div></div><br><br>
+        <div class="khushi">
+            <div>
+        <div class="order">
+        
+          <div class="crd">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMyzfmXp2bWMGCMLw2JC4uXpXR1qEGTCBvw&s" alt="b1"  height="200px" width="350px"><p style="font-size: 30px;padding-left: 5%;">order online</p><p style="font-size: 20px;padding-left: 5%;">stay home and order to your doorstep</p>
+          </div>
+        
+
+            <div class="crd">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO-zeDXBe3kDlCo_vfEF6n8vUqry_TMXc3sA&s" alt="dining" height="200px" width="350px"> <p style="font-size: 30px; padding-left: 5%;">Dining</p> <p style="font-size: 20px;padding-left: 5%;">view the city's favorite dining venus</p>   </div>
+        <div class="crd">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKvm61Uk5SZ5cJ04eYQBAvNv-1SOX_r5Dprg&s" alt="Live enent"  height="200px" width="350px"><p style="font-size: 30px; padding-left: 5%;">Live Events</p> <p style="font-size: 20px;padding-left: 5%;">Discover India's best events & concerts</p>  
+        </div>
+    </div><br><br><br>
+    <div>
+        <h1 style="font-size: 35px;font-family: sans-serif;letter-spacing: 1px;">Collection</h1><br><div class="red">
+        <div>
+        <p style="font-size: 20px;height: 2vh;color: #918d8d;">Explore curated lists of top restuarant,cafes,pubs,and bars in indore, based on trends</p>
+         </div><div>
+        <p style="color: #fc2222;font-family: sans-serif;letter-spacing: 1px; margin-left: 200px;">All collection in indore</p></div>
+       <div><i class="fa-solid fa-caret-right" style="color: #fc2222;"></i></div>
+      </div><br><br>
+        <div class="van">
+           <div> <img src="https://b.zmtcdn.com/data/collections/a1e31eb92bb9951aaf1750d88497adb4_1685696586.jpg" alt="" height="350px" width="270px">
+            <p ><b> 12 best luxury dining places</b></p><h3>12 places</h3><i class="fa-solid fa-caret-up fa-rotate-90" style="color: #fafcff;"></i>
+           </div>
+          <div> <img src="https://b.zmtcdn.com/data/collections/aaccef7199995c73258750f61c1961f0_1702271043.jpg" alt=""  height="350px" width="270px"><p> 11 Romantic Dining places</p><h3>11 places</h3><i class="fa-solid fa-caret-up fa-rotate-90" style="color: #fafcff;"></i></div>
+         <div>  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-zuQuezhBE6f5tFoYV8lQE0olsjuQDVJkw&s" alt=""  height="350px" width="270px"><p> 17 Great cafes </p><h3>20 places</h3><i class="fa-solid fa-caret-up fa-rotate-90" style="color: #fafcff;"></i></div>
+          <div><img src="https://i0.wp.com/lovelaughmirch.com/wp-content/uploads/2015/10/Sabudana-Tikkis-_4.jpg?fit=864%2C1079&ssl=1" alt="" height="350px" width="270px"><p>12 Local Favorite places</p><h3>12 places</h3><i class="fa-solid fa-caret-up fa-rotate-90" style="color: #fafcff;"></i>
+        </div> 
+        </div>
+        <br><br><br><br><p style="font-size: 35px;font-family: sans-serif;letter-spacing: 1px;">popular Localities in and Around</p><br><br><br>
+        <div class="buttom">
+        <div class="btm">
+            <div>
+                <p>vijay nager</p>
+                <span>1219 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div> <div class="btm">
+            <div>
+                <p>New Palasia</p>
+                <span>165 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div>
+        <div class="btm">
+            <div>
+                <p>Old Palasia</p>
+                <span>241 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div>
+    </div>
+    <div class="buttom">
+        <div class="btm">
+            <div>
+                <p>Bhawar Kuan</p>
+                <span>457 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div> <div class="btm">
+            <div>
+                <p>Rau</p>
+                <span>165 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div>
+        <div class="btm">
+            <div>
+                <p>By Pass Road(north)</p>
+                <span>188 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div>
+    </div>
+    <div class="buttom">
+        <div class="btm">
+            <div>
+                <p>South Tukoganj</p>
+                <span>63 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div> <div class="btm">
+            <div>
+                <p>Sapna Sangeeta</p>
+                <span>133 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than" style="color: #0c0d0d;"></i>
+        </div>
+        <div class="btm">
+            <div>
+                <p>See more</p>
+                <span>1219 places</span>
+            </div>
+            <i class="fa-solid fa-greater-than fa-rotate-90" style="color: #353536;"></i>
+        </div>
+    </div>
+        
+           
+
+
+    </div>
+    </div>
+  
+        <br><br><br><br><br><br>
+        
+    </div>
+    <div class="app">
+        <div class="email">
+            <img src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" alt=""  width="250px" ;height="450px" >
+        </div>
+        <div class="type">
+        <h1 style="font-size: 45px;margin-bottom: 5%;">Get the zomato app</h1>
+        <p style="font-size: 20px; color: rgb(88, 85, 85);">we will send you a link open it on your phone to download <br>the app</p>
+    <div class="radio">
+        <input type="radio" value="Email" name="Email" id="Email">
+        <label for="Email">
+            Email
+        </label>     
+        
+        <input type="radio" value="phone" name="Email" id="phone" style="margin-left: 20px; ">
+        <label for="phone">phone</label>
+        </div >
+        <div class="class">
+        <input type="Email" placeholder="Email" >
+       
+
+        <button >Share App Link</button></div>
+        <p style="color: rgb(141, 137, 131); margin-bottom: 2%;">Download App From</p>
+        
+        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" width="137" height="40px" margin="10px 10px 10px 10px ">
+        <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" width="137" height="40px">
+    </div></div>
+<br><br><br><br>
+    <div class="near">
+        <p>Explore option near me</p>
+        <div class="me">
+            <p>Popular Cuisines near me  </p>
+            <i class="fa-solid fa-greater-than fa-rotate-90" style="color: #353536;"></i>
+        </div>
+        <div class="me">
+            <p>Popular restaurant types near me  </p>
+            <i class="fa-solid fa-greater-than fa-rotate-90" style="color: #353536;"></i>
+        </div>
+        <div class="me">
+            <p>Top Restaurant Chains </p>
+            <i class="fa-solid fa-greater-than fa-rotate-90" style="color: #353536;"></i>
+        </div>
+        <div class="me">
+            <p>Cities We Deliver To  </p>
+            <i class="fa-solid fa-greater-than fa-rotate-90" style="color: #353536;"></i>
+        </div>
+    </div>
+    <br><br>
+    <div class="footer">
+        <div class="footer1">
+        <div>
+            <b >zomato</b>
+       
+        </div><div class="india">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="" width="20px" height="15px">
+            <select name="country" id="country">
+               
+           <option value="">india</option>
+           <option value="">USA</option>
+            </select>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Tho9BYnfG_4tWTOHh_enGl7jPfz3XthIxQ&s" alt="" width="20px" height="20px">
+        <select name="language" id="language">
+            <option value="">hindi</option>
+            <option value="">English</option>
+            <option value="">turce</option>
+            <option value="">italian</option>
+            <option value="">vietnamese</option>
+            <option value="">slovencina</option>
+        </select>
+    </div>
+   
+</div>
+<div class="some">
+<div>
+    <h4>ABOUT ZOMATO</h4>
+    <p>who we are </p>
+    <p>blog</p>
+    <p>work with us </p>
+    <p>investor</p>
+    <p>relations</p>
+    <p>report fraud</p>
+    <p>press kit</p>
+    <p>contact us</p>
+</div>
+<div>
+    <h4>ZOMAVERSE</h4>
+    <P>zomato</P>
+    <p>blinkit</p>
+    <p>feeding india</p>
+    <p>hyperpure</p>
+    <p>zoamto live</p>
+    <p>zomaland</p>
+    <p>weather union</p>
+</div>
+<div>
+    <h4>FOR RESTUARANTS</h4>
+    <P>partner with us </P>
+    <p>apps for us</p>
+</div>
+<div>
+<h4>LEARN MORE</h4>
+<P>quyen rieng tu</P>
+<p>secrurity</p>
+<p>Dieu khoan</p>
+<p>so do trang</p>
+</div>
+<div>
+    <h4>SOCIAL LINKS</h4>
+    <div>
+        <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+        <div class="re">
+        <div >
+            <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="" width="137" height="40px">
+       
+    </div><div> 
+        <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" width="137" height="40px" margin="10px 10px 10px 10px "></div>
+</div></div>
+  
+</div>
+    </div>
+    <br><br><br><hr><br>
+   <p style="color: #918d8d;">By Continuing past this page.you agree to our Terms of Services Cookies Policy Privacy and Content Policies .All trademarks are properties of their respective owners 2008-2004 zomato <sup>TM</sup> Ltd.All right reserved</p>
+   <br><br>
+    </div>
+   
+</body>
+</html>
